@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NotBadWePad</title>
+    <link rel="icon" href="ico.ico" type="images/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="autor" content="Zhenya Vovchyk">
+    <meta name="keywords" content="Create web-page, WebPageNote, WEBnote, Note for web, Fast note, WEBpad, WEB page test note, speed test html code, Test HTML5 CSS code online, HTML,CSS, Bootstrap, Web development, programming,training,learning,quiz,primer, references,examples,source code,colors">
+    <script>
+        window.name = "source"
+
+        function launchEditor() {
+            editor = window.open("1.htm", "editor", "height=310,width=350")
+        }
+
+        function viewPage() {
+            view = window.open("", "view")
+            view.document.open()
+            view.document.write(document.forms[0].elements[0].value)
+            view.document.close()
+        }
+    </script>
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        
+        body {
+            background-image: url(#);
+            background-size: cover;
+        }
+        
+        #textarea {
+            background: url(#);
+            background-size: cover;
+            color: rgb(32, 31, 31);
+            font-size: 26px;
+            padding: 1%;
+            border-image: url(4.PNG);
+        }
+        
+        .w3-bar {
+            font-size: 25px;
+            color: rgb(36, 33, 33);
+            background-image: url(#);
+        }
+        
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="w3-bar">
+            <center>
+                <button class="w3-button " onClick="viewPage()">Create page</button>
+                <button class="w3-button-item w3-right"><a href="index.html">Reset</a></button>
+            </center>
+        </div>
+        <form>
+            <textarea id="textarea" cols=100 " rows="20 ">
+        <!DOCTYPE html>
+          <html lang="en ">
+        <head>
+                <meta charset="UTF-8 ">
+                <title>NotBadWebPad</title>
+            <style>
+                 html,body,h1,h2,h3,h4,h5,h6 {
+                   font-family: "Comic Sans MS ", cursive, sans-serif;  
+                   font-size: 20px;                
+                }
+            </style>
+        </head>
+         
+        <body>
+            <center><h1>Use your imagenation</h1></center>
+            <center><h3>Create and test your web page...</h3></center>
+        </body>
+      </html>
+ </textarea>
+  </form>
+   </center>
+</body>
+</html>
